@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'cleaner';
+  src:  url('fonts/cleaner.eot?7ps6g1');
+  src:  url('fonts/cleaner.eot?7ps6g1#iefix') format('embedded-opentype'),
+    url('fonts/cleaner.ttf?7ps6g1') format('truetype'),
+    url('fonts/cleaner.woff?7ps6g1') format('woff'),
+    url('fonts/cleaner.svg?7ps6g1#cleaner') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="cleaner-"], [class*=" cleaner-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cleaner' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cleaner-seal-1:before {
+  content: "\e922";
+}
+.cleaner-seal-2:before {
+  content: "\e923";
+}
+.cleaner-seal-3:before {
+  content: "\e924";
+}
+.cleaner-seal-4:before {
+  content: "\e925";
+}
+.cleaner-seal-5:before {
+  content: "\e926";
+}
+.cleaner-seal-6:before {
+  content: "\e927";
+}
+.cleaner-seal-7:before {
+  content: "\e928";
+}
+.cleaner-seal-8:before {
+  content: "\e929";
+}
+.cleaner-bottle:before {
+  content: "\e908";
+}
+.cleaner-brush:before {
+  content: "\e909";
+}
+.cleaner-bucket:before {
+  content: "\e90a";
+}
+.cleaner-dishes:before {
+  content: "\e90b";
+}
+.cleaner-dust:before {
+  content: "\e90c";
+}
+.cleaner-dust2:before {
+  content: "\e90d";
+}
+.cleaner-glove:before {
+  content: "\e90e";
+}
+.cleaner-health:before {
+  content: "\e90f";
+}
+.cleaner-lady:before {
+  content: "\e910";
+}
+.cleaner-machine:before {
+  content: "\e911";
+}
+.cleaner-products:before {
+  content: "\e912";
+}
+.cleaner-rake:before {
+  content: "\e913";
+}
+.cleaner-rake2:before {
+  content: "\e914";
+}
+.cleaner-recycle:before {
+  content: "\e915";
+}
+.cleaner-recycle2:before {
+  content: "\e916";
+}
+.cleaner-shovel:before {
+  content: "\e917";
+}
+.cleaner-soap:before {
+  content: "\e918";
+}
+.cleaner-soap2:before {
+  content: "\e919";
+}
+.cleaner-soap3:before {
+  content: "\e91a";
+}
+.cleaner-soap4:before {
+  content: "\e91b";
+}
+.cleaner-tissue:before {
+  content: "\e91c";
+}
+.cleaner-toilet:before {
+  content: "\e91d";
+}
+.cleaner-toilet2:before {
+  content: "\e91e";
+}
+.cleaner-towel:before {
+  content: "\e91f";
+}
+.cleaner-water:before {
+  content: "\e920";
+}
+.cleaner-window:before {
+  content: "\e921";
+}
+.cleaner-award:before {
+  content: "\e900";
+}
+.cleaner-broom:before {
+  content: "\e901";
+}
+.cleaner-clock:before {
+  content: "\e902";
+}
+.cleaner-contract:before {
+  content: "\e903";
+}
+.cleaner-money:before {
+  content: "\e904";
+}
+.cleaner-pin:before {
+  content: "\e905";
+}
+.cleaner-spray:before {
+  content: "\e906";
+}
+.cleaner-house:before {
+  content: "\e907";
+}

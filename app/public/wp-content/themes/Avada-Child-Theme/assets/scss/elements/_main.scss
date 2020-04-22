@@ -1,0 +1,163 @@
+//homepage
+
+#home{
+  display: none;
+  h1,p,a,i{
+    color: white!important;
+  }
+}
+
+
+
+.home{
+  .tfs-slider .slide-content-container{
+    top: 80%;
+  }
+}
+
+
+
+//button
+a.fusion-button.button-flat{
+  background-color: var(--brand-primary);
+  color: white;
+  border: 2px solid var(--brand-primary);
+  span{
+    color: white;
+  }
+&:hover{
+  background-color: white;
+  color: var(--brand-primary);
+  span{
+      color: var(--brand-primary);
+  }
+}
+}
+
+
+
+//logo
+.fusion-logo-link img{
+  max-width: 120px;
+}
+@include viewport-7{
+  .fusion-logo-link img{
+    max-width: 180px;
+  }
+}
+
+
+
+
+//menu
+.fusion-main-menu>ul>li>a {
+  color: var(--brand-primary)!important;
+  &:hover{
+    color: var(--black)!important;
+  }
+}
+.side-header-content p,.side-header-content p a{
+  color: var(--brand-primary);
+  text-align: center;
+  font-size: 16px;
+}
+.side-header-content i{
+  margin-right: 5px;
+}
+
+.fusion-mobile-menu-search{
+  display: none!important;
+}
+
+//mobile menu
+.fusion-flyout-search-toggle{
+    display: none!important;
+}
+
+.fusion-flyout-menu-toggle{
+  .fusion-toggle-icon-line{
+    background-color: var(--black)!important;
+  }
+  &:hover .fusion-toggle-icon-line{
+  background-color: var(--brand-primary)!important;
+}}
+
+.fusion-mobile-nav-item a {
+    color: var(--brand-primary)!important;
+    font-size: 32px!important;
+    font-weight: var(--font-weight-body-bold);
+    &:hover{
+      color:var(--black)!important;
+    }
+}
+
+.fusion-header-has-flyout-menu .fusion-flyout-menu>ul.fusion-menu>li {
+    padding: 20px 0!important;
+}
+
+//scrolled mobile menu
+#side-header.fusion-is-sticky{
+    padding: 6px 30px!important;
+  .fusion-logo-link img {
+    max-width: 70px;
+}
+}
+
+//fontawesome icons
+i.fontawesome-icon{
+  color: var(--brand-primary)!important;
+}
+
+
+//buttons
+input[type="submit"]{
+  background-color: var(--brand-primary)!important;
+}
+
+
+
+//color
+#toTop:hover, .circle-yes ul li:before, .fusion-date-and-formats .fusion-date-box, .fusion-pagination .current, .fusion-search-element .searchform.fusion-search-form-classic .fusion-search-form-content .fusion-search-button input[type=submit]:hover, .fusion-search-form-classic .searchform:not(.fusion-search-form-clean) .fusion-search-form-content .fusion-search-button input[type=submit]:hover, .pagination .current, .progress-bar-content, .table-2 table thead, .tagcloud a:hover, ul.arrow li:before, ul.circle-yes li:before {
+    background-color: var(--brand-primary)!important;
+
+}
+.fusion-separator{
+  border-color: var(--brand-primary)!important;
+  opacity: 0.5;
+}
+
+
+//footer
+#footer{
+  background-color: var(--brand-primary);
+}
+
+
+//switch order on mobile
+#trainer-thomas>.fusion-fullwidth> .fusion-builder-row.fusion-row,#trainer-jens>.fusion-fullwidth> .fusion-builder-row.fusion-row{
+  display: flex;
+  flex-direction: column;
+    @include viewport-9{
+      flex-direction: row;
+    }
+}
+
+#trainer-thomas,#trainer-jens {
+  .order-1{
+    order:1;
+
+  }
+  .order-2{
+    order:2;
+  }
+  @include viewport-9{
+
+    .order-1{
+      order:2;
+
+    }
+    .order-2{
+      order:1;
+    }
+  }
+}

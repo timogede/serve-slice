@@ -1,0 +1,128 @@
+body {
+  font-family: var(--font-family-body); }
+
+:root {
+  --font-family-headline: ;
+  --font-weight-headline: ;
+  --font-weight-headline-bold: ;
+  --font-family-body: "Red Hat Display", Arial, Helvetica, sans-serif!important;
+  --font-weight-body: ;
+  --font-weight-body-bold:700;
+  --brand-primary:#5E8DC2;
+  --brand-secondary:#DFA01F;
+  --white: #fff;
+  --gray: #d1d1d1;
+  --black: #333333;
+  --margin-mobile: 25px;
+  --margin-desktop: 50px;
+  --shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-family-headline);
+  font-weight: var(--font-weight-headline-bold);
+  color: var(--black); }
+
+p {
+  color: var(--black); }
+
+#home {
+  display: none; }
+  #home h1, #home p, #home a, #home i {
+    color: white !important; }
+
+.home .tfs-slider .slide-content-container {
+  top: 80%; }
+
+a.fusion-button.button-flat {
+  background-color: var(--brand-primary);
+  color: white;
+  border: 2px solid var(--brand-primary); }
+  a.fusion-button.button-flat span {
+    color: white; }
+  a.fusion-button.button-flat:hover {
+    background-color: white;
+    color: var(--brand-primary); }
+    a.fusion-button.button-flat:hover span {
+      color: var(--brand-primary); }
+
+.fusion-logo-link img {
+  max-width: 120px; }
+
+@media (min-width: 768px) {
+  .fusion-logo-link img {
+    max-width: 180px; } }
+
+.fusion-main-menu > ul > li > a {
+  color: var(--brand-primary) !important; }
+  .fusion-main-menu > ul > li > a:hover {
+    color: var(--black) !important; }
+
+.side-header-content p, .side-header-content p a {
+  color: var(--brand-primary);
+  text-align: center;
+  font-size: 16px; }
+
+.side-header-content i {
+  margin-right: 5px; }
+
+.fusion-mobile-menu-search {
+  display: none !important; }
+
+.fusion-flyout-search-toggle {
+  display: none !important; }
+
+.fusion-flyout-menu-toggle .fusion-toggle-icon-line {
+  background-color: var(--black) !important; }
+
+.fusion-flyout-menu-toggle:hover .fusion-toggle-icon-line {
+  background-color: var(--brand-primary) !important; }
+
+.fusion-mobile-nav-item a {
+  color: var(--brand-primary) !important;
+  font-size: 32px !important;
+  font-weight: var(--font-weight-body-bold); }
+  .fusion-mobile-nav-item a:hover {
+    color: var(--black) !important; }
+
+.fusion-header-has-flyout-menu .fusion-flyout-menu > ul.fusion-menu > li {
+  padding: 20px 0 !important; }
+
+#side-header.fusion-is-sticky {
+  padding: 6px 30px !important; }
+  #side-header.fusion-is-sticky .fusion-logo-link img {
+    max-width: 70px; }
+
+i.fontawesome-icon {
+  color: var(--brand-primary) !important; }
+
+input[type="submit"] {
+  background-color: var(--brand-primary) !important; }
+
+#toTop:hover, .circle-yes ul li:before, .fusion-date-and-formats .fusion-date-box, .fusion-pagination .current, .fusion-search-element .searchform.fusion-search-form-classic .fusion-search-form-content .fusion-search-button input[type=submit]:hover, .fusion-search-form-classic .searchform:not(.fusion-search-form-clean) .fusion-search-form-content .fusion-search-button input[type=submit]:hover, .pagination .current, .progress-bar-content, .table-2 table thead, .tagcloud a:hover, ul.arrow li:before, ul.circle-yes li:before {
+  background-color: var(--brand-primary) !important; }
+
+.fusion-separator {
+  border-color: var(--brand-primary) !important;
+  opacity: 0.5; }
+
+#footer {
+  background-color: var(--brand-primary); }
+
+#trainer-thomas > .fusion-fullwidth > .fusion-builder-row.fusion-row, #trainer-jens > .fusion-fullwidth > .fusion-builder-row.fusion-row {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 992px) {
+    #trainer-thomas > .fusion-fullwidth > .fusion-builder-row.fusion-row, #trainer-jens > .fusion-fullwidth > .fusion-builder-row.fusion-row {
+      flex-direction: row; } }
+
+#trainer-thomas .order-1, #trainer-jens .order-1 {
+  order: 1; }
+
+#trainer-thomas .order-2, #trainer-jens .order-2 {
+  order: 2; }
+
+@media (min-width: 992px) {
+  #trainer-thomas .order-1, #trainer-jens .order-1 {
+    order: 2; }
+  #trainer-thomas .order-2, #trainer-jens .order-2 {
+    order: 1; } }

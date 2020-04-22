@@ -1,0 +1,66 @@
+    //breakpoints
+    @mixin viewport-4 {
+      @media (min-width: 480px) {
+        @content;
+  }
+}
+    @mixin viewport-7 {
+      @media (min-width: 768px) {
+        @content;
+  }
+}
+    @mixin viewport-9 {
+      @media (min-width: 992px) {
+        @content;
+  }
+}
+    @mixin viewport-12 {
+      @media (min-width: 1200px) {
+        @content;
+  }
+}
+
+  //margins
+    @mixin margin {
+      margin-bottom: 25px;
+      @include viewport-4{
+        margin-bottom: 50px;
+      }
+    }
+body{
+font-family: var(--font-family-body);
+}
+
+:root {
+
+  //headline
+  --font-family-headline: ;
+  --font-weight-headline: ;
+  --font-weight-headline-bold: ;
+  //body
+  --font-family-body: "Red Hat Display", Arial, Helvetica, sans-serif!important;
+  --font-weight-body: ;
+  --font-weight-body-bold:700;
+  //colors
+  --brand-primary:#5E8DC2;
+  --brand-secondary:#DFA01F;
+  --white: #fff;
+  --gray: #d1d1d1;
+  --black: #333333;
+  --fa-primary-color:;
+  //margins
+  --margin-mobile: 25px;
+  --margin-desktop: 50px;
+  //styles
+  --shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+h1,h2,h3,h4,h5{
+  font-family: var(--font-family-headline);
+  font-weight: var(--font-weight-headline-bold);
+  color:var(--black);
+}
+p{
+  color:var(--black);
+}
