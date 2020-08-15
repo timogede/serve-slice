@@ -1,4 +1,9 @@
     //breakpoints
+    @mixin viewport-0{
+      @media(max-width:479px){
+        @content;
+      }
+    }
     @mixin viewport-4 {
       @media (min-width: 480px) {
         @content;
@@ -42,7 +47,7 @@ font-family: var(--font-family-body);
   --font-weight-body: ;
   --font-weight-body-bold:700;
   //colors
-  --brand-primary:#5E8DC2;
+  --brand-primary:#bb2e19;
   --brand-secondary:#DFA01F;
   --white: #fff;
   --gray: #d1d1d1;

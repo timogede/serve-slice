@@ -8,7 +8,7 @@ body {
   --font-family-body: "Red Hat Display", Arial, Helvetica, sans-serif!important;
   --font-weight-body: ;
   --font-weight-body-bold:700;
-  --brand-primary:#5E8DC2;
+  --brand-primary:#bb2e19;
   --brand-secondary:#DFA01F;
   --white: #fff;
   --gray: #d1d1d1;
@@ -31,7 +31,19 @@ p {
     color: white !important; }
 
 .home .tfs-slider .slide-content-container {
-  top: 80%; }
+  bottom: 30px;
+  transform: none;
+  top: inherit; }
+  @media (min-width: 768px) {
+    .home .tfs-slider .slide-content-container {
+      bottom: 100px; } }
+
+.slider_button {
+  font-size: 20px !important; }
+
+@media (max-width: 479px) {
+  h2 {
+    font-size: 32px !important; } }
 
 a.fusion-button.button-flat {
   background-color: var(--brand-primary);
@@ -44,6 +56,9 @@ a.fusion-button.button-flat {
     color: var(--brand-primary); }
     a.fusion-button.button-flat:hover span {
       color: var(--brand-primary); }
+
+.fusion-fullwidth.fusion-builder-row-1 a:not(.fusion-button):not(.fusion-builder-module-control):not(.fusion-social-network-icon):not(.fb-icon-element):not(.fusion-countdown-link):not(.fusion-rollover-link):not(.fusion-rollover-gallery):not(.fusion-button-bar):not(.add_to_cart_button):not(.show_details_button):not(.product_type_external):not(.fusion-quick-view):not(.fusion-rollover-title-link):not(.fusion-breadcrumb-link):hover, .fusion-fullwidth.fusion-builder-row-1 a:not(.fusion-button):not(.fusion-builder-module-control):not(.fusion-social-network-icon):not(.fb-icon-element):not(.fusion-countdown-link):not(.fusion-rollover-link):not(.fusion-rollover-gallery):not(.fusion-button-bar):not(.add_to_cart_button):not(.show_details_button):not(.product_type_external):not(.fusion-quick-view):not(.fusion-rollover-title-link):not(.fusion-breadcrumb-link):hover:before, .fusion-fullwidth.fusion-builder-row-1 a:not(.fusion-button):not(.fusion-builder-module-control):not(.fusion-social-network-icon):not(.fb-icon-element):not(.fusion-countdown-link):not(.fusion-rollover-link):not(.fusion-rollover-gallery):not(.fusion-button-bar):not(.add_to_cart_button):not(.show_details_button):not(.product_type_external):not(.fusion-quick-view):not(.fusion-rollover-title-link):not(.fusion-breadcrumb-link):hover:after {
+  color: var(--brand-primary) !important; }
 
 .fusion-logo-link img {
   max-width: 120px; }
@@ -94,6 +109,17 @@ a.fusion-button.button-flat {
 
 i.fontawesome-icon {
   color: var(--brand-primary) !important; }
+
+.iconlist li {
+  padding: 16px 0 !important; }
+  .iconlist li p {
+    line-height: 1.4; }
+    @media (max-width: 479px) {
+      .iconlist li p {
+        font-size: 26px; } }
+
+.iconlist .icon-wrapper {
+  background-color: var(--brand-primary) !important; }
 
 input[type="submit"] {
   background-color: var(--brand-primary) !important; }

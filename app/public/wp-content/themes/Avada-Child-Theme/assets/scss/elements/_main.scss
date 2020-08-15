@@ -11,10 +11,24 @@
 
 .home{
   .tfs-slider .slide-content-container{
-    top: 80%;
+      bottom: 30px;
+      transform:none;
+      top: inherit;
+    @include viewport-7{
+    bottom: 100px;
+}}}
+
+  .slider_button{
+    font-size: 20px!important;
+  
+  }
+
+//fontsize mobile
+h2{
+  @include viewport-0{
+    font-size: 32px!important;
   }
 }
-
 
 
 //button
@@ -32,6 +46,11 @@ a.fusion-button.button-flat{
       color: var(--brand-primary);
   }
 }
+}
+
+//hover
+.fusion-fullwidth.fusion-builder-row-1 a:not(.fusion-button):not(.fusion-builder-module-control):not(.fusion-social-network-icon):not(.fb-icon-element):not(.fusion-countdown-link):not(.fusion-rollover-link):not(.fusion-rollover-gallery):not(.fusion-button-bar):not(.add_to_cart_button):not(.show_details_button):not(.product_type_external):not(.fusion-quick-view):not(.fusion-rollover-title-link):not(.fusion-breadcrumb-link):hover, .fusion-fullwidth.fusion-builder-row-1 a:not(.fusion-button):not(.fusion-builder-module-control):not(.fusion-social-network-icon):not(.fb-icon-element):not(.fusion-countdown-link):not(.fusion-rollover-link):not(.fusion-rollover-gallery):not(.fusion-button-bar):not(.add_to_cart_button):not(.show_details_button):not(.product_type_external):not(.fusion-quick-view):not(.fusion-rollover-title-link):not(.fusion-breadcrumb-link):hover:before, .fusion-fullwidth.fusion-builder-row-1 a:not(.fusion-button):not(.fusion-builder-module-control):not(.fusion-social-network-icon):not(.fb-icon-element):not(.fusion-countdown-link):not(.fusion-rollover-link):not(.fusion-rollover-gallery):not(.fusion-button-bar):not(.add_to_cart_button):not(.show_details_button):not(.product_type_external):not(.fusion-quick-view):not(.fusion-rollover-title-link):not(.fusion-breadcrumb-link):hover:after{
+  color: var(--brand-primary)!important;
 }
 
 
@@ -108,11 +127,29 @@ i.fontawesome-icon{
   color: var(--brand-primary)!important;
 }
 
+//icon_list
+.iconlist{
+  li{
+    padding: 16px 0!important;
+
+    p{
+      line-height: 1.4;
+      @include viewport-0{
+        font-size: 26px;
+      }
+    }
+  }
+.icon-wrapper{
+  background-color: var(--brand-primary)!important;
+}}
+
 
 //buttons
 input[type="submit"]{
   background-color: var(--brand-primary)!important;
 }
+
+
 
 
 
